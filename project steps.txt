@@ -1,0 +1,16 @@
+1.Initialize uv package manager for the project using uv init AI_Trip_Planner
+2.Create requirements.txt & setup.py
+3.If you open new cmd it will automatically activate conda env, since we work with uv need to deactivate conda env using "conda deactivate"
+4.Use cmd "uv python list" to see the list of python versions venv provided by uv.
+5.Create venv using any of the available python version within uv using "uv venv env --python  cpython-3.11.14-windows-x86_64-none"
+6.Activate the env using "env\Scripts\activate"
+7.To check which are the packages available in the venv use the cmd "uv pip list"
+8.To install any packages use the cmd eg: "uv pip install langchain"
+    Note : uv is a wrapper on top of pip written in rust language which executes faster than old pip method.
+9.Create a folder agent which will carry the scripts of the whole agent workflow
+10.Create a folder config which carries all the config related files either python, json or yaml.
+11.Create a folder prompt_library to keep all the files related to prompt engineering.
+12.Create a folder tools will carry the files which are used by the agents to perform the tasks.
+13.Create a folder utils to place all the utility files.
+14.Create .env to store the env variables eg: API, Keys
+15.Create __init__.py files in all the subfolders
