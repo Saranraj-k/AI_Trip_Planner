@@ -2,7 +2,7 @@
 2.Create requirements.txt & setup.py
 3.If you open new cmd it will automatically activate conda env, since we work with uv need to deactivate conda env using "conda deactivate"
 4.Use cmd "uv python list" to see the list of python versions venv provided by uv.
-5.Create venv using any of the available python version within uv using "uv venv env --python  cpython-3.11.14-windows-x86_64-none"
+5.Create venv using any of the available python version within uv using "uv venv env --python  cpython-3.12.12-windows-x86_64-none"
 6.Activate the env using "env\Scripts\activate"
 7.To check which are the packages available in the venv use the cmd "uv pip list"
 8.To install any packages use the cmd eg: "uv pip install langchain"
@@ -14,3 +14,4 @@
 13.Create a folder utils to place all the utility files.
 14.Create .env to store the env variables eg: API, Keys
 15.Create __init__.py files in all the subfolders
+16. -e . in requirements.txt takes care of installing dependencies on a local dir belongs to the current location.
