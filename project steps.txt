@@ -14,4 +14,5 @@
 13.Create a folder utils to place all the utility files.
 14.Create .env to store the env variables eg: API, Keys
 15.Create __init__.py files in all the subfolders
-16. -e . in requirements.txt takes care of installing dependencies on a local dir belongs to the current location.
+16. -e . in requirements.txt takes care of installing dependencies on a local dir belongs to the current location. Also ot works together with setup.py file which takes care of importing te packages in every files it doesnt require to give the complete relative path og the dependency.
+17. Here we follow factory method design pattern of LLD.
